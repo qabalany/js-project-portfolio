@@ -1,28 +1,44 @@
 {
   "projects": [
     {
-      "name": "Business site",
-      "image": "https://images.unsplash.com/photo-1557008075-7f2c5efa4cfd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2497&q=80",
-      "tags": [
-        "HTML5",
-        "CSS3",
-        "JavaScript"
-      ],
-      "netlify": "link",
-      "github": "link"
+      "id": 1,
+      "name": "Recipe Library",
+      "description": "This is a web app built using the Spoonacular API, designed to practice fetching specific data and using local storage to enhance the user experience, with JavaScript animations for added interactivity.",
+      "image": "/images/recipe-library.png",
+      "tags": ["HTML5", "CSS3", "JavaScript", "APIs"],
+      "position": "left",
+      "netlify": "https://recipe.fartist.live/",
+      "github": "https://github.com/qabalany/recipe"
     },
     {
-      "name": "Weather app",
-      "image": "https://images.unsplash.com/photo-1520792532857-293bd046307a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2370&q=80",
-      "tags": [
-        "HTML5",
-        "CSS3",
-        "JavaScript",
-        "TypeScript",
-        "APIs"
-      ],
-      "netlify": "link",
-      "github": "link"
+      "id": 2,
+      "name": "Weather App",
+      "description": "This weather app is a group project built using the SMHI API and TypeScript. It displays accurate weather data for different locations, includes dynamic icons, and was designed to practice API integration, asynchronous data handling, and collaborative development.",
+      "image": "/images/weather-app.png",
+      "tags": ["HTML5", "CSS3", "JavaScript", "TypeScript", "APIs"],
+      "position": "right",
+      "netlify": "https://weather.fartist.live/",
+      "github": "https://github.com/qabalany/js-project-weather-app"
+    },
+    {
+      "id": 3,
+      "name": "Accessibility Site",
+      "description": "This fictional event site is a group project, created with accessibility in focus. It includes a modal with trapped focus, a high-contrast mode toggle, and text customization settings. The project was designed to practice building accessible and user-friendly interfaces while implementing interactive features that enhance usability for all users.",
+      "image": "/images/accessibility-site.png",
+      "tags": ["HTML5", "CSS3", "JavaScript"],
+      "position": "left",
+      "netlify": "https://eventacc.netlify.app/",
+      "github": "https://github.com/qabalany/js-project-accessibility"
+    },
+    {
+      "id": 4,
+      "name": "D-News Portal",
+      "description": "Modern single-page news portal focused on Web3, blockchain, and decentralization. Built with clean, semantic HTML and responsive CSS to deliver a professional news reading experience.",
+      "image": "/images/dnews-portal.png",
+      "tags": ["HTML5", "CSS3", "JavaScript"],
+      "position": "right",
+      "netlify": "https://denews.fartist.live/",
+      "github": "https://github.com/qabalany/js-project-business-site"
     }
   ]
 }

@@ -1,8 +1,42 @@
+import { ThemeProvider } from "styled-components";
+import { Helmet } from "react-helmet";
+import theme from "./styles/Theme";
+import GlobalStyles from "./styles/GlobalStyles";
+import HeroSection from "./sections/HeroSection";
+import TechSection from "./sections/TechSection";
+import ProjectSection from "./sections/ProjectSection";
+import SkillsSection from "./sections/SkillsSection";
+import ArticleSection from "./sections/ArticleSection";
+import ContactSection from "./sections/ContactSection";
+
 export const App = () => {
   return (
-    <>
-      <h1>Portfolio</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, laborum! Maxime animi nostrum facilis distinctio neque labore consectetur beatae eum ipsum excepturi voluptatum, dicta repellendus incidunt fugiat, consequatur rem aperiam.</p>
-    </>
-  )
-}
+    <ThemeProvider theme={theme}>
+      <Helmet>
+        <title>Mohammad Alqabalany | MERN Stack Developer</title>
+        <meta
+          name="description"
+          content="MERN Stack Web Developer with a finance background, expanding into Web3, blockchain, and AI automation."
+        />
+      </Helmet>
+
+      <GlobalStyles />
+
+      {/* Skip to main content - Accessibility */}
+      <a href="#main-content" className="skip-link">
+        Skip to main content
+      </a>
+
+      <main id="main-content">
+        <HeroSection />
+        <TechSection />
+        <ProjectSection />
+        <SkillsSection />
+        <ArticleSection />
+        <ContactSection />
+      </main>
+    </ThemeProvider>
+  );
+};
+
+export default App;

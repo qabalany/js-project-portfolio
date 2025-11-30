@@ -1,0 +1,28 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "date": "November 2025",
+      "title": "How Workflow Automation Became One of My Most Valuable Skills",
+      "description": "Exploring how learning workflow automation with tools like n8n has transformed my approach to problem-solving and opened new opportunities in tech.",
+      "image": "/images/article-automation.png",
+      "link": "https://www.linkedin.com/pulse/how-workflow-automation-became-one-my-most-valuable-skills-qablany-35hbe/"
+    },
+    {
+      "id": 2,
+      "date": "November 2025",
+      "title": "It's Never Too Late to Return to What You Love",
+      "description": "My journey from finance to web development - a personal story about following your passion and making a career change at any age.",
+      "image": "/images/article-career.png",
+      "link": "https://www.linkedin.com/pulse/its-never-too-late-return-what-you-love-mhmd-qablany-0ueye/"
+    },
+    {
+      "id": 3,
+      "date": "November 2025",
+      "title": "Building My First Full-Stack Application",
+      "description": "A deep dive into my experience building a complete MERN stack application from scratch, including the challenges faced and lessons learned.",
+      "image": "/images/article-placeholder.png",
+      "link": "#"
+    }
+  ]
+}
